@@ -1,0 +1,31 @@
+.env
+.venv/
+__pycache__/
+.cursor
+
+
+
+# Python / tooling
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend (на будущее)
+node_modules/
+.next/
+out/
+
+# OS / IDE
+.DS_Store
+.idea/
+# .vscode/   # только если не хочешь шарить настройки редактора
+
+# Env variants
+.env.*
+!.env.example
